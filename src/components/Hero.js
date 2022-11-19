@@ -4,7 +4,6 @@ import google_play from "../images/google-play.png";
 import SocialMedia from "./SocialMedia";
 
 const Hero = () => {
-  
   return (
     <div className="container-fluid">
       <section className="Home_main-container row">
@@ -41,7 +40,7 @@ const Hero = () => {
               <input type="text" className="notify_input" />
               <button>Notify Me</button>{" "}
             </div>
-            <span className="Home_spam-message  text-start align-items-start">
+            <span className="Home_spam-message text-lg-start text-center align-items-lg-start align-items-center">
               *Don't worry, we won't spam you
             </span>
           </div>
